@@ -154,6 +154,8 @@ time.sleep(10)
 for f in fields:
     weighIn[f] = float(getText(GarminConXpaths[f]))
 
+# Close browser instance
+driver.close()
 
 ################
 ### Openpyxl ###
