@@ -3,7 +3,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from openpyxl import Workbook
-import time, openpyxl, os
+import time, openpyxl, os, config
+
 
 #################
 ### Variables ###
@@ -11,8 +12,8 @@ import time, openpyxl, os
 
 # Garmin Connect - Creds
 webAddress = "https://connect.garmin.com/"
-email = "xXXXXXXXXXXXXXXXXXXXXXx"
-password = "xXXXXXXXXXXXXXXXXXXXx"
+email = config.EMAIL
+password = config.PASSWORD
 
 # Column Names and corresponding fields
 # C - Weight
