@@ -8,13 +8,13 @@
 - Chrome Driver
 - openpyxl
 
-## Goals
+## Features
 - Access Garmin Connect account using Selenium
 - Scrape scale weigh in data
 - Add scale data into excel table
 
-## Future Considerations
-- Populate all missing data instead of just today's date. (incase porgram is not run every day)
+## Goals
+- Populate all missing data instead of just today's date. (incase program is not run every day)
 - Store data in a SQL table
 - Error handling (ex. if there is no scale data for a given day.)
 
